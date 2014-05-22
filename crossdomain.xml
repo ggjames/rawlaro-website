@@ -1,0 +1,9 @@
+
+				<?xml version="1.0"?>
+                <!DOCTYPE cross-domain-policy SYSTEM "http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd">
+                <cross-domain-policy>
+                        <allow-access-from domain="lovers-cups-live.appspot.com" secure="true" />
+                        <allow-access-from domain="apps.facebook.com/lovers-cups-live" secure="true" />
+                        <allow-access-from domain="flex-lovers-cups.appspot.com" secure="true" />
+                </cross-domain-policy>
+                

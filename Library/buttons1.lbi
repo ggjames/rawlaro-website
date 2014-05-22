@@ -1,0 +1,32 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!--<body onLoad="MM_preloadImages('../images/products1.jpg','../images/contact1.jpg','../images/news1.jpg','../images/team1.jpg','../images/honor1.jpg','../images/app1.jpg')">
+--><img src="../images/top1.jpg" alt="不嘴砲標題" width="1024" height="320" border="0" usemap="#Map">
+<map name="Map">
+  <area shape="rect" coords="854,248,900,293" href="http://www.facebook.com/rawlarostudio?ref=ts" target="_blank">
+  <area shape="rect" coords="17,238,168,305" href="../index.html">
+  <area shape="rect" coords="905,248,979,269" href="../team.html">
+  <area shape="rect" coords="905,251,979,273" href="../team.html">
+</map><a href="../news.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲news','','../images/news1.jpg',1)"><img src="../images/news.jpg" name="不嘴砲news" width="170" height="30" border="0"></a><a href="../team.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲team','','../images/team1.jpg',1)"><img src="../images/team.jpg" name="不嘴砲team" width="171" height="30" border="0"></a><a href="../honor.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲honor','','../images/honor1.jpg',1)"><img src="../images/honor.jpg" name="不嘴砲honor" width="171" height="30" border="0"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲team','','../images/team1.jpg',1)"></a><a href="../app.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲app','','../images/app1.jpg',1)"><img src="../images/app.jpg" name="不嘴砲app" width="171" height="30" border="0"></a><a href="../products.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲products','','../images/products1.jpg',1)"><img src="../images/products.jpg" name="不嘴砲products" width="171" height="30" border="0"></a><a href="../contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲contact','','../images/contact1.jpg',1)"><img src="../images/contact.jpg" name="不嘴砲contact" width="170" height="30" border="0"></a>

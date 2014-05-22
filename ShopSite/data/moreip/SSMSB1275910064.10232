@@ -1,0 +1,58 @@
+smb: checked
+use_smb: 
+you_saved: 0.00
+product_codes: 1
+num_shippable_products: 1
+giftcert_cnt: 0
+giftcert_total: 0.00
+cr_sql_addr: 
+host_name: Not Determined
+surcharge: 0.00
+storeid: 
+taxtotal: 4.00
+taxamount: 100.00
+cr_zip_code: 
+paytype: -1
+email_list: 
+cr_sql_payid: 
+orderinst: 
+cr_sql_payaddr_old: x
+weight: 43.000000
+calc_menu: 
+IsBuySafeEnabled: 
+giftcert_amount: 0.00
+giftcert_amount_used: 0.00
+doba_shipping: 
+shipping: reg
+needshipaddr: 
+checkout_flag: 
+zip_code: 
+ups_quantity: 0
+shippable_amount: 100.00
+subtotal: 100.00
+ups_country: 
+tax: 2
+ordertotal: 109.00
+quantity: 1
+back_to_id: 
+cr_country: 
+calc_value: 0.00
+shipoptmenu: 
+buysafetotal: 0.00
+ip_addr: 111.248.5.205
+referer: 
+checkout_error: 
+allTotals: SubTotal:100.00|TaxTotal:4.00|Shipping:Ground|5.00|GrandTotal:109.00|
+cr_sql_pay: 
+cr_sql_paytype: 
+numproducts: 1
+vattotal: 0.00
+prevlocation: http://66.147.242.160/~rawlaroc/ShopSite/page2.html
+api_price: 0.0
+producttotal: 100.00
+ups_options: reg~Ground~5.000000|sec~2nd Day Air~7.000000|nex~Next Day~10.000000|
+shiptotal: 5.00
+reduced_shipping_price: 
+cr_sql_payaddr: 
+calc_handling: 0.00
+discount: 0.00

@@ -1,0 +1,400 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="js/mootools.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/videobox.js"></script>
+<link rel="stylesheet" href="css/videobox.css" type="text/css" media="screen" />
+<title>不嘴砲實體產品</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+#wrapper {
+	height: 1650px;/*Phil: 這個div不會被內容撐大，所以要看垂直內容多少，把數字加大*/
+	width: 1024px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+}
+#mission {
+	float: left;
+	height: 400px;
+	width: 225px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	padding-right: 20px;
+	padding-left: 48px;
+	color: #333;
+}
+#mission2 {
+	float: left;
+	height: 400px;
+	width: 300px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	padding-right: 38px;
+	padding-left: 30px;
+	padding-top: 0px;
+	color: #333;
+}
+.ColumnText {
+	/*height: 400px;*/
+	/*width: 330px;*/
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+    padding-right: 20px;
+	padding-left: 48px;
+	color: #333;
+}
+.title {
+	height: 65px;
+	width: 250px;
+	margin-top: 30px;
+	clear: both;
+}
+#left { float: left; height: 500px; width: 303px; }
+
+.OneThirdColumn {
+	float: left;
+	/*height: 550px;*/
+	width: 330px; 
+}
+
+#right { float: right; height: 500px; width: 370px; }
+
+/*#vertical { float: left; height: 470px; width: 16px; padding-top: 40px; }*/
+.vertical { float: left; padding-top: 40px; }
+
+#footer { float: left; height: 293px; width: 1024px; background: url(images/footer.jpg); margin-top: 5px; }
+.hug_title { font-family: Verdana, Geneva, sans-serif; font-size: 15px; color: #FFA200; }
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+#picture {
+	float: left;
+	height: 459px;
+	width: 1024px;
+}
+.software { font-family: Verdana, Geneva, sans-serif; font-size: 15px; color: #FFA200; background: #FFA200; }
+body {
+	/*background-image: url();*/
+	background-color: #e9bc5f;
+	overflow-y: scroll;
+	margin: 0;
+}
+#slider {
+	width: 1024px; /* important to be same as image width */
+	height: 459px; /* important to be same as image height */
+	position: relative; /* important */
+	overflow: hidden; /* important */
+	margin: 0px;
+	padding: 0px;
+	background-position: left top;
+}
+#sliderContent {
+	width: 1024px; /* important to be same as image width or wider */
+	position: absolute;
+	top: 0;
+	margin-left: 0;
+	background-position: left top;
+}
+.sliderImage {
+	float: left;
+	position: relative;
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	background-position: left top;
+}
+.sliderImage span {
+	position: absolute;
+	padding: 10px 13px;
+	width: 1000px;
+	background-color: #000;
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+	color: #fff;
+	display: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 25px;
+	background-position: left top;
+}
+.clear {
+	clear: both;
+}
+.sliderImage span strong {
+	font-size: 20px;
+}
+.top {
+	top: 0;
+	left: 0;
+}
+.bottom {
+	bottom: 0;
+    left: 0;
+}
+#slider ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.ColumnText ul {
+	margin: 0px;
+	padding: 0px;
+}
+</style>
+<!--phil: .slide改成用iframe src="products_hugnii_slide.html"以後，這段javascript就用不到了<script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/s3Slider.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#slider').s3Slider({
+            timeOut: 3000
+        });
+    });
+
+function MM_effectAppearFade(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoFade(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+function MM_effectBlind(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoBlind(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+</script>
+-->
+</head><body onload="MM_preloadImages('../images/products1.jpg','../images/contact1.jpg','../images/news1.jpg','../images/team1.jpg','../images/honor1.jpg','../images/app1.jpg','images/animation_screenshot2.jpg')">
+<div id="wrapper">
+<!-- #BeginLibraryItem "/Library/buttons4.lbi" -->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!--<body onLoad="MM_preloadImages('../images/products1.jpg','../images/contact1.jpg','../images/news1.jpg','../images/team1.jpg','../images/honor1.jpg','../images/app1.jpg')">-->
+<img src="images/top4.jpg" alt="不嘴砲標題" width="1024" height="320" border="0" usemap="#Map">
+<map name="Map">
+  <area shape="rect" coords="854,248,900,293" href="http://www.facebook.com/rawlarostudio?ref=ts" target="_blank">
+  <area shape="rect" coords="17,238,168,305" href="index.html">
+  <area shape="rect" coords="905,248,980,269" href="team.html">
+  <area shape="rect" coords="905,250,980,272" href="team.html">
+</map><a href="news.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲news','','images/news1.jpg',1)"><img src="images/news.jpg" name="不嘴砲news" width="170" height="30" border="0"></a><a href="team.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲team','','images/team1.jpg',1)"><img src="images/team.jpg" name="不嘴砲team" width="171" height="30" border="0"></a><a href="honor.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲honor','','images/honor1.jpg',1)"><img src="images/honor.jpg" name="不嘴砲honor" width="171" height="30" border="0"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲team','','images/team1.jpg',1)"></a><a href="app.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲app','','images/app1.jpg',1)"><img src="images/app.jpg" name="不嘴砲app" width="171" height="30" border="0"></a><a href="products.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲products','','images/products1.jpg',1)"><img src="images/products.jpg" name="不嘴砲products" width="171" height="30" border="0"></a><a href="contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('不嘴砲contact','','images/contact1.jpg',1)"><img src="images/contact.jpg" name="不嘴砲contact" width="170" height="30" border="0"></a><!-- #EndLibraryItem --><iframe src="products_hugnii_slide.html" width="1024px" marginwidth="0" height="459px" marginheight="0" scrolling="No" frameborder="0"></iframe><!--phil: .slide改成用iframe src="products_hugnii_slide.html", 否則.slide用的javascript和播放影片的javascript(mootools.js,swfobject.js,videobox.js)會衝突,播影片效果出不來<div id="slider">
+    <ul id="sliderContent">
+      <li class="sliderImage"> <a href="http://www.youtube.com/watch?feature=player_embedded&v=KTTCKdn5t-w" target="_blank"><img src="images/videobanner.jpg" border="0" alt="1" /></a> <span class="top"> <strong>HUGNii形象影片</strong><br />
+        悄悄地把想念傳給妳-HUGNii就是滿滿的幸福</span></li>
+      <li class="sliderImage"> <img src="images/hug.jpg" border="0" alt="2" /> <span class="top"><strong>跨越距離的擁抱</strong><br />
+        緊抱懷裡的HUGNi，遠方情人的HUGNii就會緩緩綻放七彩光芒，藉由彩光傳遞思念。</span></li>
+      <li class="sliderImage"> <img src="images/hugnii2.jpg" alt="3" /> <span class="top"><strong>心心相印的默契</strong><br />
+        倆人同時擁抱各自的HUGNii時，HUGNii就閃爍三次耀眼的白光，紀念這動人的時刻。</span></li>
+      <li class="sliderImage"> <img src="images/message.jpg" alt="4" /> <span class="top"><strong>專屬我們的密語</strong><br />
+        HUGNii收到思念時發出的光芒變化，也就是情人想說的話！透過軟體可以設定自己想說的話，也能看看對方悄悄說了什麼！</span></li>
+      <div class="clear sliderImage"></div>
+    </ul>
+  </div>-->
+<div><img src="images/fans.jpg" width="1024" height="50" border="0" usemap="#Map2" />
+  <map name="Map2" id="Map2">
+    <area shape="rect" coords="674,6,1016,45" href="https://www.facebook.com/HUGNii" target="_blank" />
+    <area shape="rect" coords="5,4,343,46" href="use_hugnii.html" />
+    <area shape="rect" coords="357,5,662,46" href="questions_hugnii.html" />
+  </map></div>
+<div class="OneThirdColumn">
+    <div class="title"><img src="images/product_info.jpg" width="232" height="65" /></div>
+<div class="ColumnText">
+  <p>故事從RawLaro Studio創辦人和女友經歷的苦戀說起...跨越半個地球的距離、一公升相思的淚水，兩人深刻體會：感情不是靠規律頻繁的甜蜜熱線，而是對彼此的確定感，和一種放心卻不打擾對方的默契，唯有兩顆心依偎在一起，才能綻放美麗的花朵...</p>
+  <p>HUGNii甜心枕，取自英文Honey的發音，蘊藏「擁抱你／妳」概念；透過擁抱，遠距傳遞思念。</p>
+</div>
+<div class="title"><img src="images/product_info2.jpg" width="232" height="65" /></div>
+<div class="ColumnText">
+  <p><span class="hug_title">HUGNii @ Windows軟體</span><br />
+<img src="images/windows7_logo.png" width="45" height="45" border="0" style="vertical-align:bottom;"/><a href="http://api.rawlaro.com/rawlaro/HUGNii/setup.exe" target="_blank">　軟體下載　</a><a href="http://www.rawlaro.com/p/hugnii-windows-software-step-by-step.html" target="_blank">軟體教學</a></p>
+  <p><span class="hug_title">HUGNii @ Android APP</span><br />
+    <img src="images/android_logo.png" width="45" height="45" style="vertical-align:bottom;"/>　<a href="https://market.android.com/details?id=com.rawlaro.iot.hugnii" target="_blank"><img src="http://www.android.com/images/brand/45_avail_market_logo1.png" width="117" height="45" border="0" style="vertical-align:bottom;"/></a><a href="http://api.rawlaro.com/rawlaro/HUGNii/setup.exe" target="_blank">　</a><a href="manual_hugnii-android-app.html">APP教學</a></p>
+</div>
+</div>
+<div class="vertical">
+  <img src="images/vertical.jpg" width="16" height="660" /></div>
+<div class="OneThirdColumn">
+<div class="title"><img src="images/product_info3.jpg" style="margin-left: 20px" width="211" height="65" /></div>
+<div class="ColumnText">
+  <p><!--<a href ="http://www.youtube.com/watch?v=iUdloBBDNVI" rel="vidbox 720 405" title="animation" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image16','','images/animation_screenshot2.jpg',1)">--><a href ="http://www.youtube.com/watch?v=iUdloBBDNVI" rel="vidbox 720 405" title="動畫情境展示"><img src="images/animation_screenshot.jpg" alt="" name="Image16" width="256" height="137" border="0" id="Image16" /></a></p>
+  <p><span class="hug_title">擁抱／Hugging</span><br />
+    緊抱懷裡的「HUGNii甜心枕」，就會發出柔和微光；同時，遠方對應的那隻HUGNii也會綻放同樣的光芒。</p>
+  <p><span class="hug_title">密語／Secret Code</span><br />
+    你知道嗎？HUGNii收到思念發出炫光時，這些光影變化是有意義的！不過要從軟體上才看得到喔。</p>
+  <p><span class="hug_title">默契／Tacit</span><br />
+    兩人同時擁抱HUGNii，將帶來三次耀眼的白光閃爍，紀念這動人的一刻。</p>
+</div>
+</div>
+<div class="vertical">
+  <img src="images/vertical.jpg" width="16" height="660" /></div>
+<div class="OneThirdColumn">
+<!--<div class="title"><img src="images/product_info2.jpg" width="232" height="65" /></div>
+<div class="ColumnText">
+  <p>第一次使用，請<a href="http://api.rawlaro.com/rawlaro/HUGNii/setup.exe" target="_blank">下載電腦端HUGNii @ Windows軟體</a>馬上體驗遠距互動的樂趣！軟體的使用步驟與詳細說明，請參考  <a href="http://www.rawlaro.com/p/hugnii-windows-software-step-by-step.html" target="_blank">HUGNii @ Windows軟體教學</a>。  
+  <p>或使用Android手機到Android Market搜尋<a href="https://market.android.com/details?id=com.rawlaro.iot.hugnii" target="_blank">下載手機端HUGNii @ Android APP</a>，就可免電腦使用HUGNii甜心枕！<br />  
+  </div>
+--><div class="title"><img src="images/product_info5.jpg" style="margin-left: 20px" width="211" height="65" /></div>
+<div class="ColumnText">
+<p><span class="hug_title">網路購買</span><br />
+  <a href="http://www.byja.com/products_detail.asp?products_id=19744" target="_blank"><!--<img src="http://www.byja.com/images/byjalogo.gif" width="157" height="47" border="0" />--><img src="images/byjalogo.gif" width="229" height="65" border="0" /></a>
+<a href="http://www.books.com.tw/exep/prod/newprod_file.php?item=N000232807" target="_blank"><img src="images/bookslogo.png" width="180" height="68" border="0"/></a>
+<a href=""><img src="http://rp1.monday.vip.tw1.yahoo.net/res/ads/img/headactjpg_v7_0.gif" width="224" height="54" border="0"/></a></p>
+<p><span class="hug_title">實體店面<br />
+</span><img style="float:left; margin-right:-25px; z-index:1" src="http://cdpiazza.z-eqiq.com/images/logo.gif" width="200" height="63" /><span style="float:left; z-index:99;"><a href="http://cathaycreative.z-eqiq.com/01.html" target="_blank"><span style="color: #FF6E35;">台北華山</span></a><br /><a href="http://cathaycreative.z-eqiq.com/03.html" target="_blank"><span style="color: #FF6E35;">台中金典</span></a></span>
+</p>
+</div>
+</div>
+
+<div id="footer"><!-- #BeginLibraryItem "/Library/footer.lbi" -->
+<style type="text/css">
+#apDivBensonDesign {
+	position:absolute;
+	z-index:3;
+	left: 892px;
+	top: 250px;
+}
+#apDiv1 {
+	position:absolute;
+	width:1024px;
+	height:290px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	width:98px;
+	height:102px;
+	z-index:3;
+	left: 86px;
+	top: 46px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+}
+#apDiv3 {
+	position:absolute;
+	width:98px;
+	height:102px;
+	z-index:3;
+	left: 243px;
+	top: 46px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+}
+#apDiv4 {
+	position:absolute;
+	width:98px;
+	height:102px;
+	z-index:3;
+	left: 399px;
+	top: 46px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+}
+#apDiv5 {
+	position:absolute;
+	width:98px;
+	height:102px;
+	z-index:3;
+	left: 547px;
+	top: 46px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+}
+#apDiv6 {
+	position:absolute;
+	width:98px;
+	height:102px;
+	z-index:3;
+	left: 705px;
+	top: 46px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+}
+#apDiv7 {
+	position:absolute;
+	width:98px;
+	height:102px;
+	z-index:3;
+	left: 859px;
+	top: 46px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+}
+a:link { text-decoration: none; color: #000; }
+a:visited { text-decoration: none; color: #000; }
+a:hover {
+	text-decoration: none;
+	color: #ffa200;
+}
+a:active { text-decoration: none; color: #000; }
+.footer_title { font-family: Verdana, Geneva, sans-serif; font-size: 15px; color: #000; }
+#apDiv8 { position:absolute; width:925px; height:115px; z-index:2; left: 49px; top: 79px; }
+</style>
+<div id="apDiv1">
+  <div id="apDiv2">
+    <span class="footer_title"><a href="news.html">最新消息</a><br>
+    </span>■	 最新媒體報導<br>
+      ■	 活動訊息
+  </div>
+  <div id="apDiv3"><span class="footer_title"><a href="team.html" class="footer_title">設計團隊</a></span><br>
+    ■	 經營理念<br>
+  ■	 核心價值</div>
+  <div id="apDiv4"><span class="footer_title"><a href="honor.html">獲獎紀錄</a></span><br>
+    ■	 榮譽<br>
+  ■	 媒體報導</div>
+  <div id="apDiv5"><span class="footer_title"><a href="app.html">行動APP</a></span><br>
+    ■	 飛吻傳情<br>
+  ■	 墜落側高</div>
+  <div id="apDiv6"><span class="footer_title"><a href="products.html">實體產品</a></span><br>
+    ■	 HUGNii甜心枕<br>
+  ■	 智求多福燈</div>
+  <div id="apDiv7"><span class="footer_title"><a href="contact.html">連絡我們</a></span><br>
+<a href="contact.html">■ </a>客戶服務<br>
+    	 ■	 投資人<br>
+  ■	 商業合作夥伴</div>
+  <div id="apDivBensonDesign"><a href="http://yantingchen.com" target="_blank"><img src="images/bensondesign_logo.jpg" width="65" height="31" border="0"></a></div>
+</div>
+<!-- #EndLibraryItem --></div>
+</div>
+</body>
+</html>

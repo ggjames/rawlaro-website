@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<configuration>
+
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="PillowKing.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+    </sectionGroup>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="PillowKing.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false"/>
+    </sectionGroup>
+  </configSections>
+  <!--http://sqlite.phxsoftware.com/forums/p/2314/9238.aspx
+  for Sqlite-->
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    
+  <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup>
+
+  <userSettings>
+    <PillowKing.Properties.Settings>
+      <setting name="EmbraceDate" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="BeEmbracedDate" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ApplicationVersion" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="CultureInfo" serializeAs="String">
+        <value>en</value>
+      </setting>
+      <setting name="PollingIntervalSecond" serializeAs="String">
+        <value>1</value>
+      </setting>
+      <setting name="AutoStartWithWindows" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="AutoCheckForUpdate" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="ShowBalloonTip" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="LockDevicePassword" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="PillowServiceRootUrl" serializeAs="String">
+        <value>http://api.rawlaro.com/rawlaro/PillowService/</value>
+      </setting>
+    </PillowKing.Properties.Settings>
+  </userSettings>
+  <applicationSettings>
+    <PillowKing.Properties.Settings>
+      <setting name="DeviceInfoManagerUrl" serializeAs="String">
+        <value>DeviceInfoManager.php</value>
+      </setting>
+      <setting name="PillowMessageManagerUrl" serializeAs="String">
+        <value>DeviceMessageManager.php</value>
+      </setting>
+      <setting name="PillowLoginUrl" serializeAs="String">
+        <value>Login.php</value>
+      </setting>
+      <setting name="WebSiteUrl" serializeAs="String">
+        <value>http://www.rawlaro.com/p/hugnii.html</value>
+      </setting>
+      <setting name="OnlineGuideUrl" serializeAs="String">
+        <value>http://www.rawlaro.com/p/hugnii-windows-software-step-by-step.html</value>
+      </setting>
+    </PillowKing.Properties.Settings>
+  </applicationSettings>
+</configuration>
