@@ -2,10 +2,10 @@
   function mysql_open()
   {
   	//hugnii only has 3 privileges: SELECT, INSERT, UPDATE
-    $dbserver = "localhost";
-    $username = "rawlaroc_hugnii";
-    $password = "%)L[uiq&u(7d";
-    $database = "rawlaroc_hugnii";
+    $dbserver = "ap-cdbr-azure-east-c.cloudapp.net";
+    $username = "b6b3f3e8530994";
+    $password = "f7f0fc63";
+    $database = "hugnii";
     $connection = mysql_connect($dbserver, $username, $password);
     if($connection)
     {
