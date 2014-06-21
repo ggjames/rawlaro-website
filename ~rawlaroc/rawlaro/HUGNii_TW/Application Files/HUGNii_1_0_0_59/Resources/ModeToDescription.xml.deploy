@@ -1,0 +1,12 @@
+<Dictionary name="Root" type="System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib" keyType="System.String, mscorlib" valueType="System.String, mscorlib">
+  <Items>
+    <Item>
+      <Simple value="1" />
+      <Simple value="哈囉" />
+    </Item>
+    <Item>
+      <Simple value="2" />
+      <Simple value="抱抱" />
+    </Item>
+  </Items>
+</Dictionary>

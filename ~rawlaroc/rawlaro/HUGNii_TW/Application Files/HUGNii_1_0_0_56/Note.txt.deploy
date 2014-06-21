@@ -1,0 +1,9 @@
+﻿ClickOnce Install URL:http://66.147.242.160/~rawlaroc/rawlaro/PillowKing/index.htm
+部屬的時候
+要把 Content 檔案在 Application Files裡面選擇 Publish Status 裡面改為 Data File
+這樣在部屬的時候，就會把檔案複製到另外的資料夾去，C#則是使用
+ApplicationDeployment.CurrentDeployment.DataDirectory 取得
+
+然後在每次安裝新版的時候，會自動把舊的檔案 copy 到新的目錄去，這樣我們資料庫裡面的檔案就不會遺失
+如果有衝突的話，就會新增一個 pre 的資料夾。
+
